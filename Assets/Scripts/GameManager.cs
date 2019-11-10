@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour {
     public void OpenBox(int value){
         boxes += value;
         
-        if (boxes == 1){
+        if (boxes == 3){
             gameSign.SetActive(true);
             gameSign2.SetActive(true);
             gameSign3.SetActive(true);
